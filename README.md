@@ -115,7 +115,7 @@ This is the dataset ...
 
 ### Missing  values
 
-Some isolated curve values, or even the entire DTS curve (Coala-21, Coala-88 and Coala-89), are missing in some of the wells. We encourage users to try Statistical and Machine Learning imputation techniques to imput missing values and missing curves.
+Some isolated curve values, or even the entire DTS curve (Coala-88), are missing in some of the wells. We encourage users to try Statistical and Machine Learning imputation techniques to imput missing values and missing curves.
 
 # Jupyter Notebooks (Python) 
 
