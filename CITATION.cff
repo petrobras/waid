@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use any resource published in this repository, please cite it as below."
+authors:
+- family-names: "Frota"
+  given-names: "Rewbenio Araújo"
+  email: rewbenio@petrobras.com.br
+  affiliation: Petróleo Brasileiro S.A.
+  orcid: "https://orcid.org/0000-0001-5802-5903"
+- family-names: "Menezes de Jesus"
+  given-names: "Candida"
+  email: candida.jesus@petrobras.com.br
+  affiliation: Petróleo Brasileiro S.A.
+  orcid: "https://orcid.org/0009-0009-1195-3302"
+- family-names: "..."
+  given-names: "..."
+  email: ...@petrobras.com.br
+  affiliation: Petróleo Brasileiro S.A.
+  orcid: "https://orcid.org/..."
+- family-names: "..."
+  given-names: "..."
+  email: ...@ica.ele.puc-rio.br
+  affiliation: Pontifícia Universidade Católica do Rio de Janeiro
+  orcid: ""
+title: "WAID"
+version: 1.0.0
+date-released: "2023-08-01"
+url: "https://git.ep.petrobras.com.br/agp-inres/waid"
