@@ -111,12 +111,14 @@ The chosen nomenclature is as follows:
     * Shallow Formation Resistivity (RES10)
     * Deep Formation Resistivity (RES90)
 
-This is the dataset ...
+It is important to highlight that the caliper log is often used as a data quality indicator.
 
 ### Missing  values
 
-Some isolated curve values, or even the entire DTS curve (Coala-88), are missing in some of the wells. We encourage users to try Statistical and Machine Learning imputation techniques to imput missing values and missing curves.
+Some isolated curve values, or even the entire DTS curve (COALA-88), are missing in some of the wells. We encourage users to try Statistical and Machine Learning imputation techniques to imput missing values and missing curves.
 
 # Jupyter Notebooks (Python) 
 
-...
+# Jupyter Notebooks (Python) 
+
+To illustrate the potential of the dataset, a Jupyter notebook ```plot_segment_acoustic_image.ipynb`` is provided showing the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds.
