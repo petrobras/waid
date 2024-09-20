@@ -15,8 +15,9 @@
   - [Ambition](#ambition)
   - [Contributions](#contributions)
   - [Licenses](#licenses)
-- [Dataset](#dataset)
+- [Datasets](#datasets)
 - [Jupyter Notebooks (Python)](#jupyter-notebooks-python)
+- [Published work using WAID data](#published-work-using-waid-data)
 
 # Introduction
 
@@ -80,11 +81,59 @@ bsc_data = pd.read_csv('tatu22_IMG.csv',
                         decimal = ',',
                         ...)
 ```
+Due to size restrictions in the image data files updated on GitHub, the original CSV files had to be split into many subfiles. We provide a Python function to solve this problem:
 
+```python 
+def concat_IMG_data(well_id, data_path):
+    # Due to file size limitations, the original AMP '.csv' file
+    # has been split into several sub-files.
+    # The concat_IMG_data() function aims to concatenate
+    # them back into a single data object.
+    #
+    # concat_IMG_data() returns 'image_df', a Pandas dataframe
+    # indexed by DEPTH information and whose columns are
+    # the azimuthal coordinates of the AMP image log.
+    
+    # Name of the initial '00' file
+    initial_file = well_id + "_AMP00.csv"
+
+    # Read the the initial file to capture header information
+    initial_file_path = os.path.join(data_path, initial_file)
+    image_df = pd.read_csv(initial_file_path,sep = ';',
+                           index_col=0,
+                           na_values = -9999,na_filter = True,
+                           decimal = ',',
+                           skip_blank_lines = True).dropna()
+
+    # Read and add data from the remaining files sequentially
+    for file in os.listdir(data_path):
+        if file.startswith(well_id) and file != initial_file:
+            file_path = os.path.join(data_path, file)
+            df_temp = pd.read_csv(file_path,sep = ';',
+                                  header=None,index_col = 0,
+                                  na_values = -9999, na_filter = True,
+                                  decimal = ',', skip_blank_lines = True,
+                                  dtype=np.float32
+                                 ).dropna()
+            
+            # Adjust tem df's header to match image header
+            df_temp.columns=image_df.columns
+            
+            # Concat dfs
+            image_df = pd.concat([image_df, df_temp])
+    return image_df
+```
+
+After defining ``img_data_path`` and ``well_identifier``, the above function returns the well image log data in a single Pandas dataframe, for example:
+
+```python 
+# Whole image data
+img_data = concat_IMG_data(well_identifier,img_data_path)
+```
 
 ## Basic logs dataset
 
-To load a basic log data from a given well (for example, Tatu-22), one can use the following Pandas command line:
+To load a basic log data from a given well (for example, TATU-22), one can use the following Pandas command line:
 
 ```python 
 bsc_data = pd.read_csv('tatu22_BSC.csv',
@@ -95,8 +144,8 @@ bsc_data = pd.read_csv('tatu22_BSC.csv',
 
 The chosen nomenclature is as follows:
 
-* **for image data files:** <well_name>_AMP.csv (AMP stems from the amplitude of the acoustic signal acquired by the image-logging tool. The values inside the file express acoustic attenuation measures in *dB*)
-* **for basic logging data files:** <well_name>_BSC.csv (BSC stems from the word *basic*). The basic curves present in all 8 wells are:
+* **for image data files:** <well_name>_AMP.csv (AMP comes from the amplitude of the acoustic signal captured by the imaging tool. The values in the file express acoustic attenuation measures in *dB*.)
+* **for basic logging data files:** <well_name>_BSC.csv (BSC comes from the word *basic*). The basic curves present in thee basic dataset are:
     * Caliper (CAL)
     * Gamma Ray (GR)
     * Bulk Density (DEN)
@@ -119,6 +168,11 @@ Some isolated curve values, or even the entire DTS curve (COALA-88), are missing
 
 # Jupyter Notebooks (Python) 
 
-# Jupyter Notebooks (Python) 
+To illustrate the potential of the dataset, a Jupyter notebook ```plot_segment_acoustic_image.ipynb``` is provided showing the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds.
 
-To illustrate the potential of the dataset, a Jupyter notebook ```plot_segment_acoustic_image.ipynb`` is provided showing the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds.
+# Published work using WAID data
+
+In this section we aim to include an updated list of published papers (from journals or conferences) or other academic/technical works that have used data from this database
+
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus, "Heteroassociative Mapping with Self-Organizing Maps for Probabilistic Multi-output Prediction", 2024 International Joint Conference on Neural Networks (IJCNN), Yokohama, Japan, 2024, pp. 1-6, [DOI: 10.1109/IJCNN60899.2024.10650225](https://doi.org/10.1109/IJCNN60899.2024.10650225).
+* Frota, Rewbenio A., Barreto, G.A., Vellasco, Marley M.B.R., de Jesus, Candida M. (2024). "New Cloth Unto an Old Garment: SOM for Regeneration Learning". In: Villmann, T., Kaden, M., Geweniger, T., Schleif, FM. (eds) Advances in Self-Organizing Maps, Learning Vector Quantization, Interpretable Machine Learning, and Beyond. WSOM+ 2024. Lecture Notes in Networks and Systems, vol 1087. Springer, Cham. [DOI: 10.1007/978-3-031-67159-3_1](https://doi.org/10.1007/978-3-031-67159-3_1)
