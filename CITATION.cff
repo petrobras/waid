@@ -1,67 +1,34 @@
 cff-version: 1.2.0
-message: "If you use any resource published in this repository, please cite it as below."
+title: WAID
+message: >-
+  If you use any resource published in this repository,
+  please cite it as below.
 type: dataset
 authors:
-- family-names: "Frota"
-  given-names: "Rewbenio Araújo"
-  email: rewbenio@petrobras.com.br
-  affiliation: Petróleo Brasileiro S.A.
-  orcid: "https://orcid.org/0000-0001-5802-5903"
-- family-names: "Menezes de Jesus"
-  given-names: "Candida"
-  email: candida.jesus@petrobras.com.br
-  affiliation: Petróleo Brasileiro S.A.
-  orcid: "https://orcid.org/0009-0009-1195-3302"
-- family-names: "Xavier"
-  given-names: "Gilberto Magalhães"
-  email: gilberto.xavier@petrobras.com.br
-  affiliation: Petróleo Brasileiro S.A.
-  orcid: "https://orcid.org/0000-0001-7822-1733"
-- family-names: "Silveira"
-  given-names: "Márcio Albuquerque."
-  email: marcioas@petrobras.com.br
-  affiliation: Petróleo Brasileiro S.A.
-  orcid: ""
-title: "WAID"
-version: 1.0.0
-date-released: "2024-02-05"
-url: "https://github.com/petrobras/waid/"
-preferred-citation:
-  type: conference-paper
-  authors:
-  - family-names: "Frota"
-    given-names: "Rewbenio Araújo"
+  - family-names: Frota
+    given-names: Rewbenio Araújo
     email: rewbenio@petrobras.com.br
     affiliation: Petróleo Brasileiro S.A.
-    orcid: "https://orcid.org/0000-0001-5802-5903"
-  - family-names: "Barreto"
-    given-names: "Guilherme A."
-    email:
-    affiliation: Graduate Program in Teleinformatics Engineering, Center of Technology, Federal University of Ceará (UFC), Fortaleza - CE, Brazil
-    orcid: "https://orcid.org/0000-0003-3177-4028"
-  - family-names: "Vellasco"
-    given-names: "Marley M.B.R."
-    email:
-    affiliation: Department of Electrical Engineering, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Rio de Janeiro - RJ, Brazil
-    orcid: "https://orcid.org/0000-0002-9790-1328"
-  - family-names: "Menezes de Jesus"
-    given-names: "Candida"
+    orcid: 'https://orcid.org/0000-0001-5802-5903'
+  - family-names: Menezes de Jesus
+    given-names: Candida
     email: candida.jesus@petrobras.com.br
     affiliation: Petróleo Brasileiro S.A.
-    orcid: "https://orcid.org/0009-0009-1195-3302
-  booktitle: "Advances in Self-Organizing Maps, Learning Vector Quantization, Interpretable Machine Learning, and Beyond"
-  isbn: "978-3-031-67159-3"
-  month: "July 2024"
-  adress: "Mittweida, Germany"
-  pages: 1--10
-  title: "New Cloth Unto an Old Garment: SOM for Regeneration Learning"
-  year: 2024
-  doi: "10.1007/978-3-031-67159-3_1"
-  url: "https://link.springer.com/chapter/10.1007/978-3-031-67159-3_1"
-  keywords:
-    - "Self-Organizing Maps"
-    - "Regeneration learning"
-    - "Variational Auto-encoders"
-    - "Petrophysical Logs"
-    - "Acoustic Image Logs"
-  abstract: "A recent paradigm called Regeneration Learning addresses generative problems where the target data (e.g., images) is more complex than the available input source. While current cross-modal representation and regeneration learning rely on supervised deep learning models, this paper aims to revisit the adequacy of unsupervised models in this field. In this regard, we propose a new unsupervised approach that utilizes the SOM as a heteroassociative memory model to learn cross-modal representations in a topologically coherent map. This approach enables bidirectional predictive/regenerative mapping between domains. We evaluate the potential of this method for an unsolved (so far!) practical problem in petroleum geoscience."
+    orcid: 'https://orcid.org/0009-0009-1195-3302'
+  - family-names: Xavier
+    given-names: Gilberto Magalhães
+    email: gilberto.xavier@petrobras.com.br
+    affiliation: Petróleo Brasileiro S.A.
+    orcid: 'https://orcid.org/0000-0001-7822-1733'
+  - family-names: Silveira
+    given-names: Márcio Albuquerque.
+    email: marcioas@petrobras.com.br
+    affiliation: Petróleo Brasileiro S.A.
+    orcid: 'https://orcid.org/0000-0000-0000-0000'
+url: 'https://github.com/petrobras/waid/'
+keywords:
+  - Petrophysical Logs
+  - Acoustic Image Logs
+  - Petrophysics
+version: 1.0.0
+date-released: '2024-02-05'
