@@ -75,7 +75,9 @@ All datasets comprise '*.csv* ' files whose values are expressed in Brazilian nu
 
 To load an acoustic amplitude image data from a given well (for example, Tatu-22), one can use the following Pandas command line:
 
-```python 
+```python
+import pandas as pd
+ 
 bsc_data = pd.read_csv('tatu22_IMG.csv',
                         sep = ';',
                         decimal = ',',
@@ -83,7 +85,11 @@ bsc_data = pd.read_csv('tatu22_IMG.csv',
 ```
 Due to size restrictions in the image data files updated on GitHub, the original CSV files had to be split into many subfiles. We provide a Python function to solve this problem:
 
-```python 
+```python
+import pandas as pd
+import numpy as np
+import os
+
 def concat_IMG_data(well_id, data_path):
     # Due to file size limitations, the original AMP '.csv' file
     # has been split into several sub-files.
@@ -135,7 +141,9 @@ img_data = concat_IMG_data(well_identifier,img_data_path)
 
 To load a basic log data from a given well (for example, TATU-22), one can use the following Pandas command line:
 
-```python 
+```python
+import pandas as pd
+
 bsc_data = pd.read_csv('tatu22_BSC.csv',
                         sep = ';',
                         decimal = ',',
