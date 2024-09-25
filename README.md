@@ -145,7 +145,7 @@ bsc_data = pd.read_csv('tatu22_BSC.csv',
 The chosen nomenclature is as follows:
 
 * **for image data files:** <well_name>_AMP.csv (AMP comes from the amplitude of the acoustic signal captured by the imaging tool. The values in the file express acoustic attenuation measures in *dB*.)
-* **for basic logging data files:** <well_name>_BSC.csv (BSC comes from the word *basic*). The basic curves present in thee basic dataset are:
+* **for basic logging data files:** <well_name>_BSC.csv (BSC comes from the word *basic*). The basic curves present in the basic dataset are:
     * Caliper (CAL)
     * Gamma Ray (GR)
     * Bulk Density (DEN)
