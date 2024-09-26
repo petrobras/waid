@@ -16,6 +16,8 @@
   - [Contributions](#contributions)
   - [Licenses](#licenses)
 - [Datasets](#datasets)
+  - [Acoustic image logs dataset](#acoustic-image-logs-dataset)
+  - [Basic logs dataset](#basic-logs-dataset)
 - [Jupyter Notebooks (Python)](#jupyter-notebooks-python)
 - [Published work using WAID data](#published-work-using-waid-data)
 
@@ -51,7 +53,6 @@ With this project, PETROBRAS intends to foster the incorporation of ML/IA techni
 * the development of new applications based on image logs;
 * the discovery of new knowledge extracted from image logs.
 
-
 ## Contributions
 
 We expect to receive various types of contributions from individuals, research institutions, startups, companies and partner oil operators.
@@ -69,9 +70,25 @@ It is also very important to know, participate and follow the discussions. See t
 All the code of this project is licensed under the [Apache 2.0 License][apache] and all dataset data files (CSV files in the subdirectories of the [dataset](dataset) directory) are licensed under the [Creative Commons Attribution 4.0 International License][cc-by].
 
 # Datasets
-All datasets comprise '*.csv* ' files whose values are expressed in Brazilian numeric format (i.e., the decimal symbol is a colon ',' and the separator is a semicolon ';').
 
-## Acoustic amplitude image dataset
+In its first release, WAID contains data from five wells in a Brazilian carbonate pre-salt reservoir. Their relative locations are shown below:
+
+<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69">
+
+(The figure above is adapted from [Frota et al,, 2024](https://doi.org/10.1109/IJCNN60899.2024.10650225) with permission of the authors.)
+
+The table beloow shows the wells' identifiers and names:
+Well ID|Well name  
+-------|-----------
+A      |ANTILOPE-37
+B      |TATU-22    
+C      |BOTOROSA-47
+D      |COALA-88   
+E      |ANTILOPE-25
+
+All datasets consist of '*.csv*' files whose values are expressed in Brazilian numeric format (i.e. the decimal symbol is a colon ',' and the separator is a semicolon ';').
+
+## Acoustic image logs dataset
 
 To load an acoustic amplitude image data from a given well (for example, Tatu-22), one can use the following Pandas command line:
 
