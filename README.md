@@ -195,9 +195,13 @@ Some isolated curve values, or even the entire DTS curve (COALA-88), are missing
 
 Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic_image.ipynb``, are provided to illustrate the potential of the dataset:
 
-* ``Plot_composite_logs.ipynb`` shows how to load the data and plot basic and image logs in a composite display at user defined depth intervals;
-* Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds.
+* ``Plot_composite_logs.ipynb`` shows how to load the data and plot basic and image logs in a composite display at user defined depth intervals
 
+<img width="500" alt="waid_wells_location" src="https://github.com/user-attachments/assets/6b027b8a-f4a5-4cec-afe9-009b20375872">
+
+* ``Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds
+
+<img width="500" alt="waid_wells_location" src="https://github.com/user-attachments/assets/fce793f2-83e7-4719-988c-d41428cd585a">
 
 # Published work using WAID data
 
