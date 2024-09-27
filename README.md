@@ -193,7 +193,11 @@ Some isolated curve values, or even the entire DTS curve (COALA-88), are missing
 
 # Jupyter Notebooks (Python) 
 
-To illustrate the potential of the dataset, a Jupyter notebook ```plot_segment_acoustic_image.ipynb``` is provided showing the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds.
+Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic_image.ipynb``, are provided to illustrate the potential of the dataset:
+
+* ``Plot_composite_logs.ipynb`` shows how to load the data and plot basic and image logs in a composite display at user defined depth intervals;
+* Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds.
+
 
 # Published work using WAID data
 
