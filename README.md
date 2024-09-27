@@ -1,7 +1,7 @@
 [![Apache 2.0][apache-shield]][apache] 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-![WAID-logo-1](https://github.com/user-attachments/assets/b55f52f7-6a27-4df9-9fac-271ff34b351b)
+![WAID-logo-GH_PBR](https://github.com/user-attachments/assets/185cd690-d065-432f-87f7-4f8c0d5919d8)
 
 [apache]: https://opensource.org/licenses/Apache-2.0
 [apache-shield]: https://img.shields.io/badge/License-Apache_2.0-blue.svg
