@@ -201,7 +201,7 @@ Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic
 
 * ``Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value thresholds
 
-<img width="500" alt="image_segmentation" src="https://github.com/user-attachments/assets/fce793f2-83e7-4719-988c-d41428cd585a">
+<img width="500" alt="image_segmentation" src="https://github.com/user-attachments/assets/2a8f8144-8bb9-452d-9196-0f7e6c2ab28b">
 
 # Published work using WAID data
 
