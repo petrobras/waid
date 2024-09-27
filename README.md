@@ -71,11 +71,13 @@ All the code of this project is licensed under the [Apache 2.0 License][apache] 
 
 # Datasets
 
-In its first release, WAID contains data from five wells in a Brazilian carbonate pre-salt reservoir. Their relative locations are shown below:
+In its first release, WAID contains data from five wells in a Brazilian carbonate pre-salt reservoir. Their relative locations are shown below[^1]:
 
-<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69" title="Adapted from Frota et al., 2024 (DOI: 10.1109/IJCNN60899.2024.10650225) with permission of the authors.">
+<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69" title="Adapted from Frota et al., 2024.">
 
-The table beloow shows the wells' identifiers and names:
+[^1]: Adapted from Frota et al., 2024 [Frota et al., 2024](https://doi.org/10.1109/IJCNN60899.2024.10650225) with permission of the authors.
+
+The table below shows the wells identifiers and names:
 Well ID|Well name  
 -------|-----------
 A      |ANTILOPE-37
