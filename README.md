@@ -199,7 +199,7 @@ Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic
 
 <img width="500" alt="composite_logs" src="https://github.com/user-attachments/assets/748d63b7-7a6e-486f-8c34-2dd301b3180f">
 
-* ``Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds
+* ``Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value thresholds
 
 <img width="500" alt="image_segmentation" src="https://github.com/user-attachments/assets/fce793f2-83e7-4719-988c-d41428cd585a">
 
