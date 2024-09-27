@@ -73,9 +73,7 @@ All the code of this project is licensed under the [Apache 2.0 License][apache] 
 
 In its first release, WAID contains data from five wells in a Brazilian carbonate pre-salt reservoir. Their relative locations are shown below:
 
-<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69">
-
-(The figure above is adapted from [Frota et al,, 2024](https://doi.org/10.1109/IJCNN60899.2024.10650225) with permission of the authors.)
+<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69" title="Adapted from Frota et al., 2024 (DOI: 10.1109/IJCNN60899.2024.10650225) with permission of the authors.">
 
 The table beloow shows the wells' identifiers and names:
 Well ID|Well name  
@@ -90,7 +88,7 @@ All datasets consist of '*.csv*' files whose values are expressed in Brazilian n
 
 ## Acoustic image logs dataset
 
-To load an acoustic amplitude image data from a given well (for example, Tatu-22), one can use the following Pandas command line:
+To load an acoustic amplitude image data from a given well (for example, TATU-22), one can use the following Pandas command line:
 
 ```python
 import pandas as pd
@@ -171,19 +169,19 @@ The chosen nomenclature is as follows:
 
 * **for image data files:** <well_name>_AMP.csv (AMP comes from the amplitude of the acoustic signal captured by the imaging tool. The values in the file express acoustic attenuation measures in *dB*.)
 * **for basic logging data files:** <well_name>_BSC.csv (BSC comes from the word *basic*). The basic curves present in the basic dataset are:
-    * Caliper (CAL)
-    * Gamma Ray (GR)
-    * Bulk Density (DEN)
-    * Neutron Porosity (NEU)
-    * Sonic Compressional Slowness (DTC)
-    * Sonic Shear Slowness (DTS)
-    * Photoelectric Factor (PE)
-    * NMR Total Porosity(nmrPhiT)
-    * NMR Effective Porosity (nmrPhie)
-    * NMR Permeability (nmrPerm)
-    * NMR Free Fluid (nmrFF)
-    * Shallow Formation Resistivity (RES10)
-    * Deep Formation Resistivity (RES90)
+    * Caliper (CAL), unit: *in*.
+    * Gamma Ray (GR), unit: *GAPI*.
+    * Bulk Density (DEN), unit: *g/cc*.
+    * Neutron Porosity (NEU), unit: *p.u.*.
+    * Sonic Compressional Slowness (DTC), unit: *µs/ft*.
+    * Sonic Shear Slowness (DTS), unit: *µs/ft*.
+    * Photoelectric Factor (PE), unit: *barns/cc*
+    * NMR Total Porosity(nmrPhiT), unit: *p.u.*.
+    * NMR Effective Porosity (nmrPhie), unit: *p.u.*.
+    * NMR Permeability (nmrPerm), unit: *mD*
+    * NMR Free Fluid (nmrFF), unit: *p.u.*.
+    * Shallow Formation Resistivity (RES10), unit: *Ω/m* (*Ohm/m*).
+    * Deep Formation Resistivity (RES90), unit: *Ω/m* (*Ohm/m*).
 
 It is important to highlight that the caliper log is often used as a data quality indicator.
 
@@ -197,11 +195,11 @@ Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic
 
 * ``Plot_composite_logs.ipynb`` shows how to load the data and plot basic and image logs in a composite display at user defined depth intervals
 
-<img width="500" alt="waid_wells_location" src="https://github.com/user-attachments/assets/6b027b8a-f4a5-4cec-afe9-009b20375872">
+<img width="500" alt="composite_logs" src="https://github.com/user-attachments/assets/748d63b7-7a6e-486f-8c34-2dd301b3180f">
 
 * ``Plot_segment_acoustic_image.ipynb`` shows the basic handling of the image log data and an application for image segmentation based on amplitude value tresholds
 
-<img width="500" alt="waid_wells_location" src="https://github.com/user-attachments/assets/fce793f2-83e7-4719-988c-d41428cd585a">
+<img width="500" alt="image_segmentation" src="https://github.com/user-attachments/assets/fce793f2-83e7-4719-988c-d41428cd585a">
 
 # Published work using WAID data
 
