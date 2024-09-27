@@ -79,7 +79,7 @@ In its first release, WAID contains data from five wells in a Brazilian carbonat
 
 The table below shows the wells identifiers and names:
 Well ID|Well name  
--------|-----------
+:---:|:---:
 A      |ANTILOPE-37
 B      |TATU-22    
 C      |BOTOROSA-47
