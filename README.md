@@ -79,7 +79,8 @@ In its first release, WAID contains data from five wells in a Brazilian carbonat
 
 [^1]: Adapted from Frota et al., 2024 [Frota et al., 2024](https://doi.org/10.1109/IJCNN60899.2024.10650225) with permission of the authors.
 
-The table below shows the wells identifiers and names:
+The names of the wells and their depths have been masked to protect the confidentiality of the information. Instead of the original name and number, each well was named after a different endangered species. An action to raise awareness of our role in preserving other earthlings. The table below shows the wells identifiers and names:
+
 Well ID|Well name  
 :---:|:---:
 A      |ANTILOPE-37
