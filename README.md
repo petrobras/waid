@@ -73,11 +73,9 @@ All the code of this project is licensed under the [Apache 2.0 License][apache] 
 
 # Datasets
 
-In its first release, WAID contains data from five wells in a Brazilian carbonate pre-salt reservoir. Their relative locations are shown below[^1]:
+In its first release, WAID contains data from five wells in a Brazilian carbonate pre-salt reservoir. Their relative locations are shown below:
 
-<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69" title="Adapted from Frota et al., 2024.">
-
-[^1]: Adapted from Frota et al., 2024 [Frota et al., 2024](https://doi.org/10.1109/IJCNN60899.2024.10650225) with permission of the authors.
+<img width="600" alt="waid_wells_location" src="https://github.com/user-attachments/assets/f44f3f87-2c27-44d1-af5e-90af4d923f69" title="Relative well locations.">
 
 The names of the wells and their depths have been masked to protect the confidentiality of the information. Instead of the original name and number, each well was named after a different endangered species. An action to raise awareness of our role in preserving other earthlings. The table below shows the wells identifiers and names:
 
@@ -208,8 +206,4 @@ Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic
 
 # Published work using WAID data
 
-In this section we aim to include an updated list of published papers (from journals or conferences) or other academic/technical works that have used data from this database
-
-* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus, "Heteroassociative Mapping with Self-Organizing Maps for Probabilistic Multi-output Prediction", 2024 International Joint Conference on Neural Networks (IJCNN), Yokohama, Japan, 2024, pp. 1-6, [DOI: 10.1109/IJCNN60899.2024.10650225](https://doi.org/10.1109/IJCNN60899.2024.10650225).
-* Frota, Rewbenio A., Barreto, G.A., Vellasco, Marley M.B.R. and Menezes de Jesus, Candida, "New Cloth Unto an Old Garment: SOM for Regeneration Learning". In: Villmann, T., Kaden, M., Geweniger, T., Schleif, FM. (eds) Advances in Self-Organizing Maps, Learning Vector Quantization, Interpretable Machine Learning, and Beyond. WSOM+ 2024. Lecture Notes in Networks and Systems, vol 1087. Springer, Cham, [DOI: 10.1007/978-3-031-67159-3_1](https://doi.org/10.1007/978-3-031-67159-3_1).
-* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus, "Rede SOM para Aprendizado de Representações Multimodais com Aplicação em Petrofísica", XXV Congresso Brasileiro de Automática (CBA 2024), Rio de Janeiro, Brasil, 2024, [DOI: - ](https://www.sba.org.br/cba2024/papers/paper_3494.pdf) (in portuguese).
+In this section we aim to include an updated list of published papers (from journals or conferences) or other academic/technical works that have used data from this database.
