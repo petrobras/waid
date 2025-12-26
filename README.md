@@ -212,11 +212,11 @@ This section aims to provide an updated list of academic or technical works (e.g
 
 * Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2026). Self-Organizing Maps for Cross-modal Representation Learning in Petrophysics Applications. _Geoenergy Science and Engineering_, _257_(214266), [DOI: 10.1016/j.geoen.2025.214267](https://doi.org/10.1016/j.geoen.2025.214267).
 
-* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2025), "Novas Métricas de Avaliação de Qualidade para Imagens Petrofísicas", XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), Belo Horizonte (MG), Brazil, [DOI: - ](https://sbia.org.br/eventos/cbic_2025/cbic2025-1163956)  (in portuguese).
-
-* FROTA, Rewbenio A. (2025), "Aprendizado Regenerativo Autossupervisionado com Aplicações em Petrofísica". Orientadora: Dra. Marley M.B.R. Vellasco. Coorientador: Dr. Guilherme de Alencar Barreto. 2025. Tese (Doutorado em Engenharia Elétrica) – Pontifícia Universidade Católica do Rio de Janeiro, Rio de Janeiro, 2025. [DOI: 10.17771/pucrio.acad.71665](https://doi.org/10.17771/pucrio.acad.71665) (in portuguese).
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2025), "Novas Métricas de Avaliação de Qualidade para Imagens Petrofísicas", XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), Belo Horizonte (MG), Brazil, [DOI: - ](https://sbia.org.br/eventos/cbic2025/cbic2025-1163956)  (in portuguese).
 
 * Frota, R. A., Menezes de Jesus, C.,  Barreto, G. A., and Vellasco, M. M. B. R. (2025), "Leveraging regeneration learning for improved acoustic image log quality assessment. Sixth EAGE Borehole Geology Workshop", 1–5. Presented at the Sixth EAGE Borehole Geology Workshop, Montpellier, France,. [DOI: 10.3997/2214-4609.2025640044](https://doi.org/10.3997/2214-4609.2025640044).
+
+* FROTA, Rewbenio A. (2025), "Aprendizado Regenerativo Autossupervisionado com Aplicações em Petrofísica". Orientadora: Dra. Marley M.B.R. Vellasco. Coorientador: Dr. Guilherme de Alencar Barreto. 2025. Tese (Doutorado em Engenharia Elétrica) – Pontifícia Universidade Católica do Rio de Janeiro, Rio de Janeiro, 2025. [DOI: 10.17771/pucrio.acad.71665](https://doi.org/10.17771/pucrio.acad.71665) (doctoral thesis, in portuguese).
 
 * Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2024), "Heteroassociative Mapping with Self-Organizing Maps for Probabilistic Multi-output Prediction", International Joint Conference on Neural Networks (IJCNN), Yokohama, Japan, 2024, pp. 1-6, [DOI: 10.1109/IJCNN60899.2024.10650225](https://doi.org/10.1109/IJCNN60899.2024.10650225).
 
