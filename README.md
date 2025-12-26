@@ -206,4 +206,20 @@ Two Jupyter notebooks, ``Plot_composite_logs.ipynb`` and ``Plot_segment_acoustic
 
 # Published work using WAID data
 
-In this section we aim to include an updated list of published papers (from journals or conferences) or other academic/technical works that have used data from this database.
+This section aims to provide an updated list of academic or technical works (e.g. papers, theses and dissertations) from journals or conferences that have used data from this repository.
+
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2026). Bidirectional unsupervised probabilistic data generation with self-organizing maps for the geoenergy industry. _Neurocomputing_, _669_(132476), [DOI: 10.1016/j.neucom.2025.132476](https://doi.org/10.1016/j.neucom.2025.132476).
+
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2026). Self-Organizing Maps for Cross-modal Representation Learning in Petrophysics Applications. _Geoenergy Science and Engineering_, _257_(214266), [DOI: 10.1016/j.geoen.2025.214267](https://doi.org/10.1016/j.geoen.2025.214267).
+
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2025), "Novas Métricas de Avaliação de Qualidade para Imagens Petrofísicas", XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), Belo Horizonte (MG), Brazil, [DOI: - ](https://sbia.org.br/eventos/cbic_2025/cbic2025-1163956)  (in portuguese).
+
+* FROTA, Rewbenio A. (2025), "Aprendizado Regenerativo Autossupervisionado com Aplicações em Petrofísica". Orientadora: Dra. Marley M.B.R. Vellasco. Coorientador: Dr. Guilherme de Alencar Barreto. 2025. Tese (Doutorado em Engenharia Elétrica) – Pontifícia Universidade Católica do Rio de Janeiro, Rio de Janeiro, 2025. [DOI: 10.17771/pucrio.acad.71665](https://doi.org/10.17771/pucrio.acad.71665) (in portuguese).
+
+* Frota, R. A., Menezes de Jesus, C.,  Barreto, G. A., and Vellasco, M. M. B. R. (2025), "Leveraging regeneration learning for improved acoustic image log quality assessment. Sixth EAGE Borehole Geology Workshop", 1–5. Presented at the Sixth EAGE Borehole Geology Workshop, Montpellier, France,. [DOI: 10.3997/2214-4609.2025640044](https://doi.org/10.3997/2214-4609.2025640044).
+
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2024), "Heteroassociative Mapping with Self-Organizing Maps for Probabilistic Multi-output Prediction", International Joint Conference on Neural Networks (IJCNN), Yokohama, Japan, 2024, pp. 1-6, [DOI: 10.1109/IJCNN60899.2024.10650225](https://doi.org/10.1109/IJCNN60899.2024.10650225).
+
+* Frota, Rewbenio A., Barreto, G.A., Vellasco, Marley M.B.R. and Menezes de Jesus, Candida (2024), "New Cloth Unto an Old Garment: SOM for Regeneration Learning". In: Villmann, T., Kaden, M., Geweniger, T., Schleif, FM. (eds) Advances in Self-Organizing Maps, Learning Vector Quantization, Interpretable Machine Learning, and Beyond. WSOM+ 2024. Lecture Notes in Networks and Systems, vol 1087. Springer, Cham, [DOI: 10.1007/978-3-031-67159-3_1](https://doi.org/10.1007/978-3-031-67159-3_1).
+
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2024), "Rede SOM para Aprendizado de Representações Multimodais com Aplicação em Petrofísica", XXV Congresso Brasileiro de Automática (CBA 2024), Rio de Janeiro (RJ), Brazil, [DOI: 10.20906/CBA2024/4398 ](https://doi.org/10.20906/CBA2024/4398) (in portuguese).
