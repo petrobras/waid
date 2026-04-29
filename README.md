@@ -212,7 +212,7 @@ This section aims to provide an updated list of academic or technical works (e.g
 
 * Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2026). Self-Organizing Maps for Cross-modal Representation Learning in Petrophysics Applications. _Geoenergy Science and Engineering_, _257_(214266), [DOI: 10.1016/j.geoen.2025.214267](https://doi.org/10.1016/j.geoen.2025.214267).
 
-* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2025), "Novas Métricas de Avaliação de Qualidade para Imagens Petrofísicas", XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), Belo Horizonte (MG), Brazil, [DOI: - ](https://sbia.org.br/eventos/cbic2025/cbic2025-1163956)  (in portuguese).
+* Rewbenio A. Frota, Marley M. B. R. Vellasco, Guilherme A. Barreto and Candida M. de Jesus (2025), "Novas Métricas de Avaliação de Qualidade para Imagens Petrofísicas", XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025), Belo Horizonte (MG), Brazil, [DOI: 10.21528/CBIC2025-1163956](http://dx.doi.org/10.21528/CBIC2025-1163956)  (in portuguese).
 
 * Frota, R. A., Menezes de Jesus, C.,  Barreto, G. A., and Vellasco, M. M. B. R. (2025), "Leveraging regeneration learning for improved acoustic image log quality assessment. Sixth EAGE Borehole Geology Workshop", 1–5. Presented at the Sixth EAGE Borehole Geology Workshop, Montpellier, France,. [DOI: 10.3997/2214-4609.2025640044](https://doi.org/10.3997/2214-4609.2025640044).
 
